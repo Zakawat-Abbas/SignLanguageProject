@@ -1,5 +1,1 @@
 Flask
-keras
-numpy
-mediapipe
-opencv-python
