@@ -6,7 +6,6 @@ app = Flask(__name__)
 def predict():
     img = request.files['file']
     filename = 'input.jpg'
-    img.save(filename)
 
     result = 'H'
 
