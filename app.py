@@ -2,12 +2,15 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-
 @app.route('/predict', methods=['POST'])
-def upload():
-    photo = request.files['photo']
-    photo.save('input.jpg')
-    return 'Photo uploaded successfully!'
+def predict():
+    img = request.files['file']
+    filename = 'input.jpg'
+    img.save(filename)
+
+    result = 'H'
+
+    return result
 
 
 if __name__ == '__main__':
