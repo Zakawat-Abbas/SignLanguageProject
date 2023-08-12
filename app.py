@@ -110,9 +110,9 @@ def predict():
     filename = 'input.jpg'
     # img.save(filename)
 
-    # result = predict_image(filename)
+    result = predict_image(filename)
 
-    result = 'H'
+    # result = 'H'
 
     return result
 
