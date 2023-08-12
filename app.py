@@ -71,9 +71,9 @@ def predict():
 <<<<<<< HEAD
     img.save(filename)
 
-    result = predict_image(filename)
+    # result = predict_image(filename)
 
-    # result = 'H'
+    result = 'H'
 =======
 
     result = 'H'
