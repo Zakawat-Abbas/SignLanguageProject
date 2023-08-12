@@ -64,20 +64,16 @@ def predict_image(handimage):
 
 app = Flask(__name__)
 
+
 @app.route('/predict', methods=['POST'])
 def predict():
     img = request.files['file']
     filename = 'input.jpg'
-<<<<<<< HEAD
     img.save(filename)
 
-    result = predict_image(filename)
-
-    # result = 'H'
-=======
+    # result = predict_image(filename)
 
     result = 'H'
->>>>>>> 49c2f45e4bd115186ce1078041f26fdd1778f140
 
     return result
 
