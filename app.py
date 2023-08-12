@@ -29,8 +29,8 @@ import math
 from cvzone.ClassificationModule import Classifier
 
 detector = HandDetector(detectionCon=0.8, maxHands=1)
-classifier = Classifier("server/Model/SignToText.h5",
-                        "server/Model/labels.txt")
+classifier = Classifier("Model/SignToText.h5",
+                        "Model/labels.txt")
 offset = 20
 imgSize = 300
 # labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
