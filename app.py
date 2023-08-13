@@ -1,26 +1,3 @@
-# from flask import Flask, request
-
-# app = Flask(__name__)
-
-
-# # @app.route('/predict', methods=['POST'])
-# # def predict():
-# #     img = request.files['file']
-# #     filename = 'input.jpg'
-# #     # img.save(filename)
-
-# #     # result = predict_image(filename)
-
-# #     result = 'H'
-
-# #     return result
-# @app.route('/')
-# def hello():
-#     return 'Hello, World!'
-
-
-# app.run(host="0.0.0.0", port=5000)
-
 from flask import Flask, request
 from cvzone.HandTrackingModule import HandDetector
 import cv2
@@ -33,12 +10,12 @@ classifier = Classifier("Model/SignToText.h5",
                         "Model/labels.txt")
 offset = 20
 imgSize = 300
-# labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
-#           'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
-#           'W', 'X', 'Y', 'Z', 'del', 'space']
-labels = ['ا', 'ب', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
+labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
           'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
           'W', 'X', 'Y', 'Z', 'del', 'space']
+# labels = ['ا', 'ب', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
+#           'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
+#           'W', 'X', 'Y', 'Z', 'del', 'space']
 
 
 def predict_image(handimage):
@@ -108,7 +85,7 @@ def home():
 def predict():
     img = request.files['file']
     filename = 'input.jpg'
-    # img.save(filename)
+    img.save(filename)
 
     result = predict_image(filename)
 
