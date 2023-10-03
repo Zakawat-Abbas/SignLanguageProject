@@ -1,0 +1,45 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/DancingScript-Bold.ttf",
+      "sha1": "f903ff117b4b4ed6a71e19745ce380cceb0e561c"
+    },
+    {
+      "path": "assets/fonts/DancingScript-Medium.ttf",
+      "sha1": "e60c49ad2af4b82f891dae18e4e703577a00d5f1"
+    },
+    {
+      "path": "assets/fonts/DancingScript-Regular.ttf",
+      "sha1": "ec6129bdebcae61a210c9f6e917f9be7e628e229"
+    },
+    {
+      "path": "assets/fonts/DancingScript-SemiBold.ttf",
+      "sha1": "931d54cf0a5753a5267a4d5c7036bdb2b24906d6"
+    },
+    {
+      "path": "assets/fonts/Galano-Grotesque-Bold.otf",
+      "sha1": "6683341f0caa0e3e8b9a342429c68582e050c533"
+    },
+    {
+      "path": "assets/fonts/Galano-Grotesque-Extra-Bold.otf",
+      "sha1": "006e43dfec42bbf7e0f6521d76b5f5788640e7d8"
+    },
+    {
+      "path": "assets/fonts/Galano-Grotesque-Medium.otf",
+      "sha1": "c061122b358949ca01fd2b4a69c160d5c50910d6"
+    },
+    {
+      "path": "assets/fonts/Galano-Grotesque-Semi-Bold.otf",
+      "sha1": "09aa075cb097cf9173e5e993c24e4390e1a8b0cb"
+    },
+    {
+      "path": "assets/fonts/Galano-Grotesque.otf",
+      "sha1": "3254ec66cc34f422cbe432e05b846ddab7583a11"
+    },
+    {
+      "path": "assets/fonts/LilitaOne-Regular.ttf",
+      "sha1": "942fa84d36660aad80babd3376d50bd6a8658303"
+    }
+  ]
+}
