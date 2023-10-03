@@ -13,40 +13,6 @@ export default function PSLVoiceToSign() {
     const [started, setStarted] = useState('');
     const [results, setResults] = useState([]);
 
-    // async function translateText(word) {
-    //     const options = {
-    //         method: 'POST',
-    //         url: 'https://translate-plus.p.rapidapi.com/translate',
-    //         headers: {
-    //             'content-type': 'application/json',
-    //             'X-RapidAPI-Key': '495cfb52edmsh00d0f4ffdddec3fp139caajsne65716e5d982',
-    //             'X-RapidAPI-Host': 'translate-plus.p.rapidapi.com'
-    //         },
-    //         data: {
-    //             text: word,
-    //             source: 'hi',
-    //             target: 'ur'
-    //         }
-    //     };
-
-    //     try {
-    //         const response = await axios.request(options);
-    //         const translation = response.data.translations.translation;
-    //         console.log("Response:", translation);
-    //         // translation.replace(/\۔/g, "");
-    //         // translation.replace(/\./g, "");
-    //         let translationWithoutFullStop = translation.replace(/\۔/g, "");
-    //         // let originalString = "Hello, world.";
-    //         // let stringWithoutFullStop = originalString.replace(/\./g, "");
-
-    //         // console.log(translationWithoutFullStop); // Output: "Hello, world"
-
-    //         setResults(translationWithoutFullStop);
-    //         setText(translationWithoutFullStop);
-    //     } catch (error) {
-    //         console.error(error);
-    //     }
-    // };
 
     useEffect(() => {
         Voice.onSpeechStart = onSpeechStart;
